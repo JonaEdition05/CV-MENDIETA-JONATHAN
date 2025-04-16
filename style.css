@@ -1,57 +1,80 @@
 body {
-    font-family: Arial, sans-serif;
-    background-color: #f4f4f4;
-    margin: 0;
-    padding: 20px;
-  }
-  
-  .cv-container {
-    max-width: 800px;
-    background-color: #fff;
-    padding: 30px;
-    margin: auto;
-    box-shadow: 0 0 10px rgba(0,0,0,0.1);
-    border-radius: 10px;
-  }
-  
-  header {
-    text-align: center;
-    margin-bottom: 30px;
-  }
-  
-  header h1 {
-    margin: 0;
-    color: #333;
-  }
-  
-  header p {
-    margin: 5px 0;
-    color: #666;
-  }
-  
-  section {
-    margin-bottom: 25px;
-  }
-  
-  h2 {
-    color: #2c3e50;
-    border-bottom: 2px solid #3498db;
-    padding-bottom: 5px;
-    margin-bottom: 15px;
-  }
-  
-  ul {
-    list-style-type: none;
-    padding-left: 0;
-  }
-  
-  .skills li {
-    display: inline-block;
-    background-color: #3498db;
-    color: white;
-    padding: 6px 12px;
-    margin: 4px;
-    border-radius: 20px;
-    font-size: 14px;
-  }
-  
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #e9ecef;
+  margin: 0;
+  padding: 20px;
+}
+
+.cv-container {
+  max-width: 800px;
+  background-color: #ffffff;
+  padding: 30px;
+  margin: auto;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+  border-radius: 10px;
+}
+
+header {
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+header h1 {
+  margin: 0;
+  color: #343a40;
+}
+
+header p {
+  margin: 5px 0;
+  color: #6c757d;
+}
+
+section {
+  margin-bottom: 25px;
+}
+
+h2 {
+  color: #007bff;
+  border-bottom: 2px solid #007bff;
+  padding-bottom: 5px;
+  margin-bottom: 15px;
+}
+
+ul {
+  list-style-type: none;
+  padding-left: 0;
+}
+
+.skills li {
+  display: inline-block;
+  background-color: #007bff;
+  color: white;
+  padding: 6px 12px;
+  margin: 4px;
+  border-radius: 20px;
+  font-size: 14px;
+}
+
+.style-description {
+  background-color: #f1f1f1; /* Cambiado a un gris claro */
+  padding: 20px; /* Aumentado el padding */
+  border-radius: 10px; /* Bordes redondeados */
+  margin-top: 20px;
+  text-align: left; /* Alineación a la izquierda */
+  font-size: 14px;
+  color: #495057;
+  border: 1px solid #ced4da; /* Borde sutil */
+}
+
+.style-description h3 {
+  text-align: center;
+  color: #007bff; /* Color azul para el encabezado */
+}
+
+.style-section {
+  margin-bottom: 15px;
+  padding: 10px;
+  border-left: 4px solid #007bff; /* Borde izquierdo azul */
+  background-color: #ffffff; /* Fondo blanco */
+  border-radius: 5px; /* Bordes redondeados */
+}
