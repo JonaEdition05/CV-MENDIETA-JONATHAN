@@ -5,6 +5,101 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Currículum Vitae</title>
   <link rel="stylesheet" href="style.css">
+  <style>
+    body {
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      background-color: #e9ecef; /* Color de fondo suave */
+      margin: 0;
+      padding: 20px;
+    }
+
+    .cv-container {
+      max-width: 800px;
+      background-color: #ffffff; /* Fondo blanco para el contenedor */
+      padding: 30px;
+      margin: auto;
+      box-shadow: 0 4px 20px rgba(0, 0, 0, 0.15); /* Sombra más pronunciada */
+      border-radius: 10px; /* Bordes redondeados */
+      transition: transform 0.3s; /* Transición suave al pasar el ratón */
+    }
+
+    .cv-container:hover {
+      transform: scale(1.02); /* Efecto de aumento al pasar el ratón */
+    }
+
+    header {
+      text-align: center;
+      margin-bottom: 30px;
+    }
+
+    header h1 {
+      margin: 0;
+      color: #343a40; /* Color gris oscuro para el nombre */
+      font-size: 2.5em; /* Tamaño de fuente grande */
+    }
+
+    header p {
+      margin: 5px 0;
+      color: #6c757d; /* Color gris medio */
+      font-size: 1.2em; /* Tamaño de fuente ligeramente mayor */
+    }
+
+    section {
+      margin-bottom: 25px;
+    }
+
+    h2 {
+      color: #007bff; /* Azul vibrante para los encabezados */
+      border-bottom: 2px solid #007bff; /* Línea azul debajo del encabezado */
+      padding-bottom: 5px;
+      margin-bottom: 15px;
+      font-size: 1.5em; /* Tamaño de fuente mayor para los encabezados */
+    }
+
+    ul {
+      list-style-type: none; /* Sin viñetas */
+      padding-left: 0;
+    }
+
+    .skills li {
+      display: inline-block;
+      background-color: #007bff; /* Fondo azul para las habilidades */
+      color: white;
+      padding: 8px 14px; /* Mayor padding para botones de habilidades */
+      margin: 4px;
+      border-radius: 20px; /* Bordes redondeados */
+      font-size: 14px;
+      transition: background-color 0.3s; /* Transición suave al cambiar color */
+    }
+
+    .skills li:hover {
+      background-color: #0056b3; /* Color más oscuro al pasar el ratón */
+    }
+
+    .style-description {
+      background-color: #f8f9fa; /* Fondo gris claro */
+      padding: 20px; /* Padding aumentado */
+      border-radius: 10px; /* Bordes redondeados */
+      margin-top: 20px;
+      text-align: left; /* Alineación a la izquierda */
+      font-size: 14px;
+      color: #495057; /* Color gris oscuro */
+      border: 1px solid #ced4da; /* Borde sutil */
+    }
+
+    .style-description h3 {
+      text-align: center;
+      color: #007bff; /* Azul para el encabezado de la descripción */
+    }
+
+    .style-section {
+      margin-bottom: 15px;
+      padding: 10px;
+      border-left: 4px solid #007bff; /* Borde izquierdo azul */
+      background-color: #ffffff; /* Fondo blanco */
+      border-radius: 5px; /* Bordes redondeados */
+    }
+  </style>
 </head>
 <body>
   <div class="cv-container">
@@ -56,7 +151,7 @@
       <h3>Descripción de Estilos</h3>
       <div class="style-section">
         <strong>Tipografía:</strong>
-        <p>Fuente: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif para letra.<br>
+        <p>Fuente: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif para una mejor legibilidad.<br>
         Tamaño: Se utilizó un tamaño de fuente estándar para asegurar claridad en la lectura.</p>
       </div>
       <div class="style-section">
@@ -70,12 +165,12 @@
       <div class="style-section">
         <strong>Diseño:</strong>
         <p>Contenedor: Máximo ancho de 800px con márgenes automáticos para centrar el contenido.<br>
-        Sombras: box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1) para dar profundidad al contenedor.<br>
+        Sombras: box-shadow: 0 4px 20px rgba(0, 0, 0, 0.15) para dar profundidad al contenedor.<br>
         Bordes: Bordes redondeados (border-radius: 10px) para un aspecto más amigable.</p>
       </div>
       <div class="style-section">
         <strong>Espaciado:</strong>
-        <p>Márgenes y rellenos: Se utilizaron márgenes y rellenos consistentes para separar secciones y mejorar lo visual.</p>
+        <p>Márgenes y rellenos: Se utilizaron márgenes y rellenos consistentes para separar secciones y mejorar la jerarquía visual.</p>
       </div>
       <div class="style-section">
         <strong>Estilo de lista:</strong>
